@@ -81,7 +81,8 @@ li{
 .k3{
 	width: 540px;
 	height: 44px;
-	border: 1px solid black;
+	border-bottom:1px solid black;
+	border-top: 1px solid black;
 	text-align: center;
 	color: #dddddd;
 }
@@ -101,17 +102,28 @@ li{
 }
 .m1{
 	float: left;
-	margin-right: 70px;
 	font-size: 14.78px;
 	font-weight: 800;
 }
+.m1 img{
+	margin-left: 10px;
+	margin-right: 40px;
+}
 .m2 li{
-	width: 77px;
+	width: 80px;
 	height: 27px;
 	float: left;
 	font-size: 14.78px;
 	text-align: center;
-	margin-right: 40px;
+	margin-right: 43px;
+}
+.m2 .m21{
+	width: 80px;
+	height: 27px;
+	float: left;
+	font-size: 14.78px;
+	text-align: center;
+	margin: 0px;
 }
 .m2 li:hover{
 	border-bottom: 4px solid #3aa747;
